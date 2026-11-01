@@ -25,4 +25,5 @@ public class A_BasicProgram0002 {
 		
 		return a1;
 	}
+
 }
