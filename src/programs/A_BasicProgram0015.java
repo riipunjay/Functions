@@ -1,10 +1,12 @@
 package programs;
 
+import java.util.Scanner;
+
 //Count digits in a number
 public class A_BasicProgram0015 {
 
 	public static void main(String[] args) {
-		count(); countdigit();
+		count(); countdigit(); takingInteger();
 	}
 
 	// Total number of digit is counted here
@@ -34,5 +36,20 @@ public class A_BasicProgram0015 {
 		}
 		
 		System.out.println("Total number of occurance for the digit 3 is: " +numberOccuranceFor);
+	}
+	
+	static void takingInteger() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number: ");
+		int num = sc.nextInt();
+		int count = 0;
+		while(num > 0) {
+			int temp = num % 10;
+			if(temp == 5) {
+				count++;
+			}
+			num = num / 10;
+		}
+		System.out.println(count);
 	}
 }
