@@ -19,7 +19,6 @@ public class A_BasicProgram0012 {
 	}
 	
 	static void sumofNWhile() {
-		int num = 13;
 		int sum = 0;
 		int i = 0;
 		while(i<=13) {
