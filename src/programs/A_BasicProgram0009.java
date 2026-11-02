@@ -1,7 +1,5 @@
 package programs;
 
-import java.util.Scanner;
-
 //This program helps you find the grade of results
 public class A_BasicProgram0009 {
 
@@ -10,7 +8,7 @@ public class A_BasicProgram0009 {
 	}
 	
 	static void findGrade() {
-		int marks = 100;
+		int marks = 100;	
 		if(marks >=90 & marks<=100) 
 			System.out.println("Grade A");
 		else if(marks>=80 && marks<=89)
