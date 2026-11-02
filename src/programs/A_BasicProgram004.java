@@ -6,6 +6,7 @@ public class A_BasicProgram004 {
 		printFibonnaci();
 		printFibo();
 		System.out.println(printFiboSequenceSpot());
+		System.out.println(print12thFibonacci());
 		
 	}
 	
@@ -50,6 +51,23 @@ System.out.println("Printing the 8th spot of fibonnaci number");
 				second = next;
 			}
 			
+			return first;
+		}
+		
+		
+		static int print12thFibonacci() {
+		
+			System.out.println("===============================");
+			System.out.println("12th Fibonacci sequence using return");
+			int first = 0;
+			int second = 1;
+			int next = 0;
+			for(int count = 0; count<=12; count++) {
+				next = first + second;
+				first = second;
+				second = next;
+				
+			}
 			return first;
 		}
 }
