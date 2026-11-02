@@ -37,7 +37,7 @@ public class A_BasicProgram0015 {
 		
 		System.out.println("Total number of occurance for the digit 3 is: " +numberOccuranceFor);
 	}
-	
+	//Taking an integer and giving the ocurance number
 	static void takingInteger() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number: ");
