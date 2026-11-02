@@ -6,6 +6,7 @@ public class A_BasicProgram0006 {
 
 	public static void main(String[] args) {
 		findsi();
+		findsi(10000, 11, 3);
 	}
 	
 	static void findsi() {
@@ -15,5 +16,12 @@ public class A_BasicProgram0006 {
 		
 		float simpleInterest = principle * rate * time/100;
 		System.out.println(simpleInterest);
+	}
+	
+	static float findsi(float p , float r, float t) {
+		
+		float si = p * r * t / 100;
+		System.out.println("SI is : " + si);
+		return si;
 	}
 }
