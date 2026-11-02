@@ -1,6 +1,6 @@
 package programs;
 
-public class A_BasicProgram004 {
+public class A_BasicProgram0004 {
 
 	public static void main(String[] args) {
 		printFibonnaci();
