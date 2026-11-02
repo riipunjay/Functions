@@ -37,7 +37,7 @@ public class A_BasicProgram0013 {
 			result = result * i;
 			i++;
 			
-		}while(i<=9);
+		}while(i<=num);
 		
 		System.out.println(result);
 	}
