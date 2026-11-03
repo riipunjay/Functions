@@ -3,7 +3,7 @@ package programs;
 public class A_BasicProgram0016 {
 
 	public static void main(String[] args) {
-	findPrime(); findPrime(98);	
+	findPrime(); findPrime(17);	
 	}
 	
 	static void findPrime() {
